@@ -1,6 +1,6 @@
 {
   "name": "video-extensions",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "List of video file extensions",
   "license": "MIT",
   "repository": "sindresorhus/video-extensions",
