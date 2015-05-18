@@ -1,0 +1,40 @@
+{
+  "name": "video-extensions",
+  "version": "0.0.0",
+  "description": "List of video file extensions",
+  "license": "MIT",
+  "repository": "sindresorhus/video-extensions",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "main": "video-extensions.json",
+  "files": [
+    "video-extensions.json"
+  ],
+  "keywords": [
+    "ext",
+    "extensions",
+    "extension",
+    "file",
+    "json",
+    "list",
+    "array",
+    "video",
+    "movie",
+    "mov",
+    "avi",
+    "mp4",
+    "mkv"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
