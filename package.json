@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "ava"
   },
   "main": "video-extensions.json",
   "files": [
@@ -35,6 +35,6 @@
     "mkv"
   ],
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "*"
   }
 }
