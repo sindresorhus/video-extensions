@@ -1,4 +1,4 @@
-# video-extensions [![Build Status](https://travis-ci.com/sindresorhus/video-extensions.svg?branch=master)](https://travis-ci.com/sindresorhus/video-extensions)
+# video-extensions
 
 > List of [video file](https://en.wikipedia.org/wiki/Video_file_format) extensions
 
