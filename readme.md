@@ -2,7 +2,7 @@
 
 > List of [video file](https://en.wikipedia.org/wiki/Video_file_format) extensions
 
-*The list is just a [JSON file](video-extensions.json) and can be used wherever.*
+*The list is just a [JSON file](video-extensions.json) and can be used anywhere.*
 
 ## Install
 

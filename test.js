@@ -1,7 +1,7 @@
 import test from 'ava';
-import x from './';
+import videoExtensions from './video-extensions.json';
 
-test(t => {
-	t.true(Array.isArray(x));
-	t.true(x.length > 0);
+test('main', t => {
+	t.true(Array.isArray(videoExtensions));
+	t.true(videoExtensions.length > 0);
 });
