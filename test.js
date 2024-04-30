@@ -1,5 +1,5 @@
 import test from 'ava';
-import videoExtensions from './video-extensions.json';
+import videoExtensions from './index.js';
 
 test('main', t => {
 	t.true(Array.isArray(videoExtensions));

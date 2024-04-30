@@ -10,18 +10,25 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
-	"main": "video-extensions.json",
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
 	"engines": {
-		"node": ">=0.10.0"
+		"node": ">=18.20"
 	},
 	"scripts": {
+		"//test": "xo && ava",
 		"test": "ava"
 	},
 	"files": [
+		"index.js",
+		"index.d.ts",
 		"video-extensions.json"
 	],
 	"keywords": [
-		"ext",
 		"extensions",
 		"extension",
 		"file",
@@ -36,6 +43,7 @@
 		"mkv"
 	],
 	"devDependencies": {
-		"ava": "^2.4.0"
+		"ava": "^6.1.2",
+		"xo": "^0.58.0"
 	}
 }

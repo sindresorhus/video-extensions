@@ -6,14 +6,14 @@
 
 ## Install
 
-```
-$ npm install video-extensions
+```sh
+npm install video-extensions
 ```
 
 ## Usage
 
 ```js
-const videoExtensions = require('video-extensions');
+import videoExtensions from 'video-extensions';
 
 console.log(videoExtensions);
 //=> […, 'webm', 'wmv']
